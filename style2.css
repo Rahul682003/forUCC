@@ -1,0 +1,270 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 95);
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    height: 70px;
+}
+
+header {
+    z-index: 100;
+    top: 0;
+    position: sticky;
+    box-shadow: 5px 5px 5px rgb(0, 0, 1);
+}
+html, body {
+    scroll-behavior: smooth;
+}
+nav{
+    padding-right: 35px;
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.overview {
+    background-image: url(hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+    font-size: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content h3 {
+    font-size: 25px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+section {
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-behavior: smooth;
+    scroll-margin: 50px;
+}
+
+section .music {
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-behavior: smooth;
+}
+
+section .overview {
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-behavior: smooth;
+}
+
+section .about {
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-behavior: smooth;
+}
+
+section .video {
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-behavior: smooth;
+    top: 0px;
+}
+
+section button {
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(55, 15, 134);
+    color: white;
+}
+
+.music {
+    background-color: rgb(28, 4, 61);
+    color: white;
+    height: 600px;
+}
+
+.music button {
+    background-color: rgb(50, 3, 116);
+    color: white;
+}
+
+.img {
+    margin-left: 100px;
+}
+
+.img2 {
+    margin-top: 161px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+}
+
+.likhai {
+    margin-top: 350px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.likhai p {
+    margin-right: 120px;
+    margin-left: 120px;
+    font-size: 16px;
+}
+.footer-upper{
+    padding-top: 30px;
+}
+
+.container {
+    background-image: url(video.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 750px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    margin-top: -80px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 250px;
+}
+
+.content2 p {
+    margin-top: -16px;
+    margin-right: 172px;
+    margin-left: 189px;
+}
+
+.containeverything {
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.content3 h3 {
+    margin: 44px;
+    margin-bottom: 30px;
+    font-size: x-large;
+    margin-left: 50px;
+    text-align: initial;
+}
+
+.content3 p {
+    text-align: initial;
+    margin-left: 51px;
+    margin-right: 400px;
+}
+
+.content3 div {
+    text-align: initial;
+    margin-left: 50px
+}
+
+.content3 hr {
+    margin: 6px 51px;
+    margin-right: 400px;
+}
+
+.content3 button {
+    margin-left: -680px;
+    background-color: rgb(44, 6, 80);
+    color: white;
+}
+.giftcard{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-top: -70px;
+}
+footer{
+    display: flex;
+    background-color: rgb(25, 4, 72);
+    color: white;
+}
+.last{
+    display: flex;
+    text-align: center;
+    gap: 300px;
+    margin-top: 11px;
+}
+.menu-bar{
+    display: none;
+}
+@media (max-width:630px){
+   .navbar ul{
+    display: none;
+   }
+   .menu-bar{
+    display: block;
+   }
+}
+@media (max-width:1076px)
+{
+    .last{
+        display: flex;
+        gap: 153px;
+    }
+}
+@media(max-width:1047px)
+{
+    .last{
+        gap: -40px;
+}
+}
